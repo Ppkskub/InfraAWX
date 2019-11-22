@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  gather_facts: false
+  gather_facts: no
   remote_user: root
   tasks:
     - name: install nginx
